@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>NewsZday Cripto</h1>
+        <h2>Guarde seus Zcoins aqui!</h2>
+        <form id="form">
+            <h3>Campo A: quantos você deseja guardar?</h3>
+            <input type="number" id="valor" required placeholder="Insira um valor" />
+            <h3>Campo B: informe seu saldo</h3>
+            <input type="number" id="saldo" required placeholder="Saldo Atual" />
+            <h4>Tem alguma sugestão?</h4>
+            <textarea placeholder="Descrição (opcional)"></textarea>
+            <button type="submit">Depositar</button>
+        </form>
+    <p class="sucess message"></p>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+</html>
