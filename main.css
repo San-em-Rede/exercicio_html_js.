@@ -5,9 +5,6 @@
     font-family: sans-serif;
 }
 
-body {
-}
-
 .container {
     margin: 80px auto;
     max-width: 640px;
@@ -26,6 +23,13 @@ input, textarea, button {
     resize: none;
 }
 
+.span-required{
+    font size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+}
+
 button {
     background-color: #c9cc2e;
     border: none;
@@ -39,19 +43,4 @@ button {
 
 button:hover {
     background-color: #a5ae27;
-}
-
-.sucess-message {
-    background-color: #a5ae27;
-    padding: 16px;
-    color: #fff;
-    display: none;
-}
-
-.error-message {
-    padding: 8px;
-    background-color: red;
-    color: #fff;
-    margin-botton: 8px;
-    display: none;
 }

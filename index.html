@@ -10,18 +10,32 @@
 <body>
     <div class="container">
         <h1>NewsZday Cripto</h1>
-        <h2>Guarde seus Zcoins aqui!</h2>
+        <h2>Garanta suas criptomoedas assinando agora!</h2>
         <form id="form">
-            <h3>Campo A: quantos você deseja guardar?</h3>
-            <input type="number" id="valor" required placeholder="Insira um valor" />
-            <h3>Campo B: informe seu saldo</h3>
-            <input type="number" id="saldo" required placeholder="Saldo Atual" />
-            <h4>Tem alguma sugestão?</h4>
-            <textarea placeholder="Descrição (opcional)"></textarea>
-            <button type="submit">Depositar</button>
+            <div>
+                <input type="text" placeholder="Digite seu nome" class="inputs required" oninput="nameValidate">
+                <span class="span-required">Nome deve ter no mínimo 3 carecteres</span>
+            </div>
+            <div>
+                <input type="e-mail" placeholder="Digite seu melhor email" class="inputs required" oninput="emailValidadete">
+                <span class="span-required">Digite um email válido</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Senha" class="Inputs required" oninput="mainPasswordValidate">
+                <span class="span-required">Digite uma senha com no minimo 8 carecteres</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Repita a senha" class="Inputs required" oninput="comparePassword">
+                <span class="span-required">Digite uma senha com no minimo 8 carecteres</span>
+            </div>
+            <div>
+                <textarea placeholder="Descrição (opcional)"></textarea>
+                <button type="submit">ENVIAR</button>
+            </div>
         </form>
-    <p class="sucess message"></p>
     </div>
-    <script src="./main.js" defer></script>
+    <script> 
+
+    </script>
 </body>
 </html>
