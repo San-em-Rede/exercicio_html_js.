@@ -24,11 +24,9 @@ input, textarea, button {
 }
 
 .span-required{
-    font size: 12px;
-    margin: 3px 0 0 1px;
-    color: var(--color-red);
     display: none;
 }
+
 
 button {
     background-color: #c9cc2e;

@@ -1,4 +1,4 @@
-const form = document.getElementById{'form'};
+const form = document.getElementById ('form');
 const campos = document.querySelectorAll('.span-required');
 const spans = document.querySelectorAll('span-required');
 const emailRegex = /^\w+([-+,']\w+)*@\w+([-.]\w+)*\.w+([-.]\w+)+$/;
@@ -31,6 +31,7 @@ function nameValidate(){
     else
     {
         removeError(0);
+}
 }
 
 function emailValidadete(){
